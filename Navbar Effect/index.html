@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <div class="cursor"></div>
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a data-page="home" href="#home">Home</a></li>
+                <li><a data-page="about" href="#about">About</a></li>
+                <li><a data-page="services" href="#services">Services</a></li>
+                <li><a data-page="contact" href="#contact">Contact</a></li>
+                <div class="nav-color"></div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section data-index="0" class="home" id="home">
+            <div class="main-content">Home</div>
+        </section>
+
+        <section data-index="1" class="about" id="about">
+            <div class="main-content">About</div>
+        </section>
+
+        <section data-index="2" class="services" id="services">
+            <div class="main-content">Services</div>
+        </section>
+
+        <section data-index="3" class="contact" id="contact">
+            <div class="main-content">Contact</div>
+        </section>
+    </main>
+    
+    <script src="./script.js"></script>
+    
+</body>
+
+</html>
